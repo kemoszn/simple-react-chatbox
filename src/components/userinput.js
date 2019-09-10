@@ -18,6 +18,7 @@ class UserInput extends Component {
       });
     }
   handleSubmit(event) {
+    event.preventDefault()
     this.setState({
       submit: this.state.input
     }
